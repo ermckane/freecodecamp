@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Surve Form</title>
+    <link rel='stylesheet' href='./styles.css'>
+  </head>
+  <body>
+    <h1 id='title'>Favorite Sci-fi Survey</h1>
+    <p id='description'>Fill out this form to the help determine the best aspects of sci-fi!</p>
+    <form id='survey-form'>
+      <h3 id='fot'>Personal Info</h3>
+      <fieldset id='personal-info'>
+        <label for='name' id='name-label'>Enter Your Name: <input id='name' type='text' name='Name' placeholder='Philip J. Fry' required></label>
+        <label for='email' id='email-label'>Enter Your Email: <input id='email' type='email' name='Name' placeholder='email@' required></label>
+        <label for='number' id='number-label'>Enter Your Age: <input id='number' type='number' min='0' max='120' name='Name' placeholder='25'></label>
+      </fieldset>
+      <fieldset id='dropdowns'>
+        <h3>Select a Ship</h3>
+        <label for='dropdown'> 
+          <select id='dropdown' name='favorite-ship' required>
+            <option value=''>(select one)</option>
+            <option value-'1'>Anubis Mothership</option>
+            <option value='2'>Battlestar Galactica</option>
+            <option value='3'>Borg Cube</option>
+            <option value='4'>Enterprise</option>
+            <option value='5'>Millinnium Falcon</opton>
+            <option value='6'>Planet Express</option>
+            <option value='7'>Rocinante</option>
+            <option value='8'>Serenity</option>
+            <option value='9'>Star Destroyer</option>
+            <option value='10'>Tardis</option>
+            <option value='11'>X-Wing</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id='radios'>
+        <h3>Select Your Favorite Science-Fiction Universe: </h3>
+        <label for='star-wars'>
+          <input type='radio' id='star-wars' name='favorite-series' value='StarWars' class='inline'>Star Wars
+        </label>
+        <label for='star-trek'>
+          <input type='radio' id='star-trek' name='favorite-series' value='StarTrek' class='inline'>Star Trek
+        </label>
+        <label for='battlestar'>
+        <input type='radio' id='battlestar' name='favorite-series' value='BattlestarGalactica' class='inline'>Battlestar Galactica
+        </label>
+        <label for='stargate'>
+          <input type='radio' id='stargate' name='favorite-series' value='Stargate' class='inline'>Stargate
+        </label>
+        <label for='futurama'>
+          <input type='radio' id='futurama' name='favorite-series' value='Futurama' class='inline'>Futurama
+        </label>
+        <label for='halo'>
+          <input type='radio' id='halo' name='favorite-series' value='Halo' class='inline'>Halo
+        </label>
+        <label for='babylon'>
+          <input type='radio' id='babylon' name='favorite-series' value='Babylon' class='inline'>Babylon
+        </label>
+        <label for='warhammer'>
+          <input type='radio' id='warhammer' name='favorite-series' value='Warhammer40k' class='inline'>Warhammer 40k
+        </label>
+        <label for='dune'>
+          <input type='radio' id='dune' name='favorite-series' value='Dune' class='inline'>Dune
+        </label>
+        <label for='mass-effect'>
+          <input type='radio' id='mass-effect' name='favorite-series' value='MassEffect' class='inline'>Mass Effect
+        </label>
+        <label for='firefly'>
+          <input type='radio' id='firefly' name='favorite-series' value='Firefly' class='inline'>Firefly
+        </label>
+      </fieldset>
+      <fieldset id='checkboxes'>
+        <h3>Best Starship Captains</h3>
+        <label for='futuramacpt'>
+          <input type='checkbox' id='futuramacpt' name='best-captain' value='futuramacpt' class='inline'> Leela
+        </label>
+        <label for='startrekcpt1'>
+          <input type='checkbox' id='startrekcpt1' name='best-captain' value='startrekcpt1' class='inline'> James T. Kirk
+        </label>
+        <label for='startrekcpt2'>
+          <input type='checkbox' id='startrekcpt2' name='best-captain' value='startrekcpt2' class='inline'> Jean-Luc Piccard
+        </label>
+        <label for='battlestarcpt'>
+          <input type='checkbox' id='battlestarcpt' name='best-captain' value='battlestarcpt' class='inline'> William Adama
+        </label>
+        <label for='fireflycpt'>
+          <input type='checkbox' id='fireflycpt' name='best-captain' value='fireflycpt' class='inline'> Malcolm Reynolds
+        </label>
+        <label for='beebopcpt'>
+          <input type='checkbox' for='beebopcpt' name='best-captain' value='beebopcpt' class='inline'> Jet Black
+        </label>
+        <label for='doctorwhocpt'>
+          <input type='checkbox' for='doctorwhocpt' name='best-captain' value='doctorwhocpt' class='inline'> The Doctor
+        </label>
+        <label for='starwarscpt1'>
+          <input type='checkbox' id='starwarscpt1' name='best-captain' value='starwarscpt1' class='inline'> Grand Moff Willhuff Tarkin
+        </label>
+        <label for='halocpt'>
+          <input type='checkbox' id='halocpt' name='best-captain' value='halocpt' class='inline'> Jacob Keyes
+        </label>
+        <label for='starwarscpt2'>
+          <input type='checkbox' id='starwarscpt2' name='best-captain' value='starwarscpt2' class='inline'> Han Solo
+        </label>
+      </fieldset>
+      <fieldset id='textareas'>
+        <label id='lot' for='explanation'> Why do you like sci-fi?
+          <textarea id='explanation' name='explanation' rows="3" cols="30" placeholder='I like sci-fi because...'></textarea>
+        </label>
+      </fieldset>
+      <input type='submit' id='submit' value='Submit' />
+    </form>
+  </body>
+</html>
