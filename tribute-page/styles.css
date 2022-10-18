@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    text-align: center;
+    color: #333436;
+  }
+  
+  #main {
+    background-color: #EDEDED;
+    margin: 30px 15px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  #tribute-info {
+    margin: 15px auto;
+    max-width: 700px;
+  }
+  
+  li {
+    text-align: left;
+    padding: .5em
+  }
+  
+  #list-header {
+    font-size: 18px;
+    margin: 3em;
+  }
+  
+  .list-item:first-of-type {
+    padding-top: 0;
+  }
+  
+  .quote {
+    font-style: italic;
+    margin: 4em
+  }
+  
+  .quote:last-of-type {
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  .quote:first-of-type {
+    margin-bottom: 1em;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  #footer-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #img-div {
+    width: auto;
+    margin: 1em .5em 1em .5em;
+    padding: 1em;
+    background-color: white;
+  }
