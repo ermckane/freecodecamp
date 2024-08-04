@@ -1,5 +1,10 @@
 {
 	"name": "fcc-learn-npm-package-json",
+	"author": "Emry McKane",
+	"description": "My dive into learniong .json and npm.",
+	"keywords": ["freecodecamp","rough", "elementary", "probably-wrong"],
+	"license":"MIT",
+	"version":"1.2.0",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
